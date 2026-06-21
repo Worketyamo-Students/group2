@@ -4,33 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><e-commerce></e-commerce></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assini.css">
     <script src="./tailwind.js"></script>
 </head>
 <body class="w-[100vw] h-[100vh] box-border">
-    <header class="bg-amber-900">
-        <nav class="flex item-center justify-between px-[7rem] w-full h-5">
+  <div class="play">
+    <header>
+      <div>
+        <nav class="flex item-center justify-between w-full">
           <h5 class="text-amber-900 text-[30px] font-bold">Collers</h5>
-          <ul class="">
-              <li>
-                <a href="#">Products</a>
-              </li>
-              <li>
-                <a href="#">Solutions
-              </li>
-              <li>
-                <a href="#">Pricing
-              </li>
-              <li>
-                <a href="#">Resources
-              </li>
-              <li>
-                <a href="#">Log in
-              </li>
-              <li>
-                <a href="#">Sign up now
-              </li>
-            </ul>
+          <ul class="icon flex justify-center gap-4 text-[1.5rem] sm:hidden text-500 ">
+            <li>
+              <a class="" href="#">Products</a>
+            </li>
+            <li>
+              <a href="#">Solutions
+            </li>
+            <li>
+              <a href="#">Pricing
+            </li>
+            <li>
+              <a href="#">Resources
+            </li>
+            <li>
+              <a href="#">Log in
+            </li>
+            <li>
+              <a href="#" class="border-2 rounded-[0.3rem] border-amber-900">Sign up now</a>
+            </li>
+          </ul>
+          <div class="icon2"><i class="fa-solid fa-bars"></i></div>
         </nav>
+      </div>
     </header>
+      <section class="flex gap-x-[8rem]">
+        <div class="w-[60%]">
+          <h1 class="font-[800] text-[7rem]">Collectible Sneakers</h1>
+          <p class="font-[400] text-[1.6rem]">Sit eit feugiunt turpis send integer interger accumsan turpis.
+          Sed suspendisse nec lorem mauris phareva,eu imperdent ipsum  ultrices amet  
+           </p>
+          <div class="club flex gap-5">
+            <button class="btn-sn">
+              <a class="border-2 rounded-[0.2rem] border-amber-900 font-[500] text-[1.8rem]" href="#">Sign up now</a>
+            </button>
+            <button class="btn-re">
+              <a class="text-amber-900 font-[500] text-[1.7rem]" href="#"><span><i class="fa-regular fa-circle-play"></i></span>
+              Watch-Demo
+              </a> 
+            </button>
+          </div>
+        </div>
+        <div class="first size-[30rem] sm:flex flex-col">
+          <img src="./images/Col.png" alt="a shoe">
+        </div>
+      </section>
+    <section2>
+      <div class="myside second flex justify-between">
+        <div>
+          <img src="./images/Icon (2).png" alt="une icone de coupe">
+          <h4 class="font-[500] text-[1.7rem] italic-medium">Nibh viverra</h4>
+          <p class="font-[400] text-[1.4rem] italic-regular">Sit bibendum donec dolor fames neque vulputate non sit aliquam.
+             Consequat turpis natoque leo, massa. </p>
+        </div>
+        <div>
+          <img src="./images/Icon.png" alt="une icone">
+          <h4 class="font-[500] text-[1.7rem] italic-medium">Cursus amet</h4>
+          <p class="font-[400] text-[1.4rem] italic-regular">Sit bibendum donec dolor fames neque vulputate non sit aliquam.
+             Consequat turpis natoque leo, massa. </p>
+        </div>
+        <div>
+          <img src="./images/Icon (1).png" alt="une icone de television">
+          <h4 class="font-[500] text-[1.7rem] italic-medium">Ipsum fermentum</h4>
+          <p class="font-[400] text-[1.4rem] italic-regular">Sit bibendum donec dolor fames neque vulputate non sit aliquam.
+             Consequat turpis natoque leo, massa. </p>
+        </div>
+      </div>
+    </section2>
+  </div>
 </body>
 </html>
