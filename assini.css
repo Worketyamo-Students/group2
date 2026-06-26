@@ -35,6 +35,43 @@ section{
     background-color: #FFFBEB;
     background-image: linear-gradient(135deg, #FEF3C7 50%, transparent 50%);
 }
+.world{
+    background-color: #FFFBEB;
+    padding: 7rem 2rem;
+    overflow-x: hidden;
+}
+.box-ds{
+  width: 110rem; 
+  height: 30rem;
+  background-color: yellow;
+  position: relative;
+  left: 3rem;
+}
+.world p{
+    padding-bottom: 2.3rem;
+    padding-top: 1.8rem;
+    padding-left: 1rem;
+}
+
+.boxes{
+    background-color: white;
+}
+.creative{
+    background-color: #FFFBEB;
+    padding: 7rem 3rem; 
+}
+.creative button{
+    background-color: white;
+    padding-bottom: 0.6rem;
+   
+}
+.creative ul li{
+    padding: 1.7rem;
+}
+.creative p{
+    padding-bottom: 1.6rem;
+    padding-top: 2rem;
+}
 @media (max-width:640px) {
     .icon2{
         visibility: visible;
@@ -61,5 +98,22 @@ section{
     }
     .second h4{
         align-items: center;
+    }
+    .creative{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .creative img{
+        width: 50rem;
+    }
+    .world{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   
+    .bees{
+       display: none;
     }
 }
