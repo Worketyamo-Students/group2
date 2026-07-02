@@ -72,6 +72,27 @@ section{
     padding-bottom: 1.6rem;
     padding-top: 2rem;
 }
+.strange{
+    background-color: #0F1F21;
+    padding: 7rem 3rem; 
+}
+.strange button{
+    padding: 0.8rem;
+    height: 4rem;
+}
+.belongers{
+    padding: 7rem 3rem;
+}
+.belongers ul li{
+    padding-bottom: 1.6rem;
+}
+.belongers h3{
+    padding-bottom: 1.6rem;
+}
+footer{
+    background-color: #0F1F21;
+    padding: 4rem 2rem; 
+}
 @media (max-width:640px) {
     .icon2{
         visibility: visible;
@@ -115,5 +136,13 @@ section{
    
     .bees{
        display: none;
+    }
+    .strange{
+        display: flex;
+        flex-direction: column;
+    }
+    .belongers{
+        display: flex;
+        flex-direction: column;
     }
 }
